@@ -58,7 +58,7 @@ export const ThemeConsumer = ThemeContext.Consumer
 // 组件内
 import React, { Component } from 'react'
 import { ThemeConsumer } from './context'
-import withContext from '~context/withContext'
+import withContext from 'as-with-context'
 
 class Home extends Component {
   ...
@@ -97,7 +97,7 @@ enmmmm，看着就好麻烦的样子，这个不能忍啊。
 
 ```javascript
 import { ThemeConsumer, InfoConsumer } from './context'
-import { withContexts } from '~context/withContext'
+import { withContexts } from 'as-with-context'
 
 class Home extends Component {
   ...
