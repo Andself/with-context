@@ -1,0 +1,6 @@
+build
+example
+node_modules
+src
+
+.babelrc
